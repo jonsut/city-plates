@@ -1,0 +1,45 @@
+name: Daily city plates
+
+on:
+  schedule:
+    # 07:23 UTC. Deliberately not on the hour: scheduled workflows queue behind the
+    # top-of-hour rush and can be delayed by an hour or dropped under load. Also
+    # offset from the profile repo's job so the two do not fetch at the same moment.
+    - cron: "23 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Pinned to commit SHAs, not tags. A tag is mutable: if one were moved, this
+      # job would silently run different code with contents:write on the repo.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.12"
+
+      # No dependencies to install: the build is standard library only, so there is
+      # nothing to pin and nothing to rot.
+      - name: Render plates
+        run: python3 tools/build.py
+
+      - name: Commit if anything changed
+        run: |
+          # A committer that is not a GitHub account keeps this out of the repo's
+          # Contributors panel and off anyone's contribution graph, so a year of
+          # automated commits does not read as human activity.
+          git config user.name "city-plates"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No change today."
+          else
+            git commit -m "Update city plates"
+            git push
+          fi
