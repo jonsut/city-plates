@@ -44,16 +44,30 @@ RETRIES = 8
 PAUSE = 45
 
 
-def fetch(url):
+def fetch(url, timeout=120):
+    """GET with backoff on rate limits and on transient network failures.
+
+    Both matter and they are not the same problem. A 429 needs a long wait for the
+    window to roll. A dropped connection or a hung TLS handshake, which is how this
+    first failed on a GitHub runner, needs a short retry: waiting ninety seconds
+    for a socket that was never going to answer just burns the job's clock.
+    """
     for attempt in range(RETRIES):
+        last = attempt == RETRIES - 1
         try:
-            with urllib.request.urlopen(url, timeout=300) as fh:
+            with urllib.request.urlopen(url, timeout=timeout) as fh:
                 return json.load(fh)
         except urllib.error.HTTPError as err:
-            if err.code != 429 or attempt == RETRIES - 1:
+            if err.code != 429 or last:
                 raise
             wait = 90 * (attempt + 1)
             print(f"    rate limited, waiting {wait}s")
+            time.sleep(wait)
+        except (urllib.error.URLError, TimeoutError, OSError) as err:
+            if last:
+                raise
+            wait = 5 * (attempt + 1)
+            print(f"    {type(err).__name__}, retrying in {wait}s")
             time.sleep(wait)
 
 
@@ -63,7 +77,8 @@ def series(start, stop, group):
     lons = ",".join(str(c[2]) for c in group)
     payload = fetch(f"{ARCHIVE}?latitude={lats}&longitude={lons}"
                     f"&start_date={start}&end_date={stop}"
-                    "&daily=temperature_2m_max&timezone=auto")
+                    "&daily=temperature_2m_max&timezone=auto",
+                    timeout=300 if len(group) < 5 else 120)
     # A single-city request returns an object, several return an array. Normalising
     # here means the rest of the file never has to know which case it is in.
     if isinstance(payload, dict):
@@ -121,17 +136,21 @@ def load():
 
 
 def update_tail(payload):
-    """Refresh the last ninety days in place, adding or correcting recent months."""
+    """Refresh the last ninety days in place, adding or correcting recent months.
+
+    Every city in one request. The batching in history mode exists because 86 years
+    across two cities is heavy enough to trip the rate limit on its own; ninety days
+    across twenty-one is not, and eleven round trips where one will do is eleven
+    chances for the network to drop the job.
+    """
     stop = date.today() - timedelta(days=LAG)
     start = stop - timedelta(days=TAIL)
     changed = 0
-    for i in range(0, len(cities.CITIES), BATCH):
-        group = cities.CITIES[i:i + BATCH]
-        for name, values in series(start, stop, group).items():
-            for key, value in monthly(values).items():
-                if payload["cities"][name].get(key) != value:
-                    payload["cities"][name][key] = value
-                    changed += 1
+    for name, values in series(start, stop, cities.CITIES).items():
+        for key, value in monthly(values).items():
+            if payload["cities"][name].get(key) != value:
+                payload["cities"][name][key] = value
+                changed += 1
     return changed
 
 
