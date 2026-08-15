@@ -104,7 +104,7 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 20 | [Delhi](#delhi) | **-0.5°C** | +1.4°C | monsoon, and among the hottest big cities |
 | 21 | [Lima](#lima) | **-1.7°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
 
-Last updated with data to 8 August 2026. 21 monthly values changed in this run.
+Last updated with data to 9 August 2026. 21 monthly values changed in this run.
 
 ### Mexico City
 
