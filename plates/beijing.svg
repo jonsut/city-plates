@@ -1076,7 +1076,7 @@
 <rect class="beijing2" x="820" y="108" width="7" height="7" rx="2"/>
 <rect class="beijing1" x="820" y="117" width="7" height="7" rx="2"/>
 <rect class="beijing4" x="820" y="126" width="7" height="7" rx="2"/>
-<rect class="beijing-void" x="820" y="135" width="7" height="7" rx="2"/>
+<rect class="beijing4" x="820" y="135" width="7" height="7" rx="2"/>
 <rect class="beijing-void" x="820" y="144" width="7" height="7" rx="2"/>
 <rect class="beijing-void" x="820" y="153" width="7" height="7" rx="2"/>
 <rect class="beijing-void" x="820" y="162" width="7" height="7" rx="2"/>
