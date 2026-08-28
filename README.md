@@ -86,8 +86,8 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 2 | [Madrid](#madrid) | **+2.8°C** | +0.3°C | inland Mediterranean, hot and dry |
 | 3 | [Anchorage](#anchorage) | **+2.8°C** | +0.6°C | sub-Arctic on the other side of the world |
 | 4 | [Tokyo](#tokyo) | **+2.7°C** | +0.2°C | humid subtropical, typhoon season |
-| 5 | [Paris](#paris) | **+2.5°C** | +0.6°C | temperate, a little more continental than London |
-| 6 | [Moscow](#moscow) | **+2.5°C** | -0.5°C | deep continental, the widest seasonal swing |
+| 5 | [Moscow](#moscow) | **+2.5°C** | -0.5°C | deep continental, the widest seasonal swing |
+| 6 | [Paris](#paris) | **+2.5°C** | +0.6°C | temperate, a little more continental than London |
 | 7 | [London](#london) | **+2.2°C** | +0.5°C | maritime temperate, and the one on the profile |
 | 8 | [Jakarta](#jakarta) | **+2.2°C** | +0.6°C | equatorial monsoon, southern side |
 | 9 | [Cairo](#cairo) | **+1.9°C** | +0.7°C | hot desert, almost no rain |
@@ -104,7 +104,7 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 20 | [Delhi](#delhi) | **-0.5°C** | +1.4°C | monsoon, and among the hottest big cities |
 | 21 | [Lima](#lima) | **-1.7°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
 
-Last updated with data to 21 August 2026. 21 monthly values changed in this run.
+Last updated with data to 22 August 2026. 21 monthly values changed in this run.
 
 ### Mexico City
 
@@ -122,13 +122,13 @@ Last updated with data to 21 August 2026. 21 monthly values changed in this run.
 
 <img src="plates/tokyo.svg" alt="Tokyo monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
-### Paris
-
-<img src="plates/paris.svg" alt="Paris monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
-
 ### Moscow
 
 <img src="plates/moscow.svg" alt="Moscow monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
+
+### Paris
+
+<img src="plates/paris.svg" alt="Paris monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
 ### London
 
