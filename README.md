@@ -93,8 +93,8 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 9 | [Cairo](#cairo) | **+1.9°C** | +0.7°C | hot desert, almost no rain |
 | 10 | [Sydney](#sydney) | **+1.8°C** | +1.3°C | humid subtropical, seasons inverted |
 | 11 | [Singapore](#singapore) | **+1.7°C** | +0.2°C | equatorial, barely a season to speak of |
-| 12 | [New York](#new-york) | **+1.6°C** | -0.3°C | humid continental, east-coast maritime |
-| 13 | [Lagos](#lagos) | **+1.6°C** | -0.6°C | tropical monsoon, near the equator |
+| 12 | [Lagos](#lagos) | **+1.6°C** | -0.6°C | tropical monsoon, near the equator |
+| 13 | [New York](#new-york) | **+1.6°C** | -0.3°C | humid continental, east-coast maritime |
 | 14 | [Nairobi](#nairobi) | **+1.5°C** | +1.2°C | tropical highland, just south of the equator |
 | 15 | [Beijing](#beijing) | **+1.5°C** | -0.0°C | continental monsoon, cold winters and hot summers |
 | 16 | [Sao Paulo](#sao-paulo) | **+1.3°C** | -0.1°C | subtropical highland, southern hemisphere |
@@ -104,7 +104,7 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 20 | [Delhi](#delhi) | **-0.5°C** | +1.4°C | monsoon, and among the hottest big cities |
 | 21 | [Lima](#lima) | **-1.7°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
 
-Last updated with data to 24 August 2026. 21 monthly values changed in this run.
+Last updated with data to 25 August 2026. 21 monthly values changed in this run.
 
 ### Mexico City
 
@@ -150,13 +150,13 @@ Last updated with data to 24 August 2026. 21 monthly values changed in this run.
 
 <img src="plates/singapore.svg" alt="Singapore monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
-### New York
-
-<img src="plates/new-york.svg" alt="New York monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
-
 ### Lagos
 
 <img src="plates/lagos.svg" alt="Lagos monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
+
+### New York
+
+<img src="plates/new-york.svg" alt="New York monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
 ### Nairobi
 
