@@ -88,7 +88,7 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 4 | [Tokyo](#tokyo) | **+2.7°C** | +0.2°C | humid subtropical, typhoon season |
 | 5 | [Paris](#paris) | **+2.5°C** | +0.6°C | temperate, a little more continental than London |
 | 6 | [Moscow](#moscow) | **+2.5°C** | -0.5°C | deep continental, the widest seasonal swing |
-| 7 | [London](#london) | **+2.2°C** | +0.5°C | maritime temperate, and the one on the profile |
+| 7 | [London](#london) | **+2.3°C** | +0.5°C | maritime temperate, and the one on the profile |
 | 8 | [Jakarta](#jakarta) | **+2.2°C** | +0.6°C | equatorial monsoon, southern side |
 | 9 | [Cairo](#cairo) | **+1.9°C** | +0.7°C | hot desert, almost no rain |
 | 10 | [Sydney](#sydney) | **+1.8°C** | +1.3°C | humid subtropical, seasons inverted |
@@ -104,7 +104,7 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 20 | [Delhi](#delhi) | **-0.5°C** | +1.4°C | monsoon, and among the hottest big cities |
 | 21 | [Lima](#lima) | **-1.7°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
 
-Last updated with data to 6 September 2026. 21 monthly values changed in this run.
+Last updated with data to 7 September 2026. 21 monthly values changed in this run.
 
 ### Mexico City
 
