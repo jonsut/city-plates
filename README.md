@@ -84,7 +84,7 @@ Ranked by the last ten years. Both figures are the same city measured against it
 |---:|---|---:|---:|---|
 | 1 | [Mexico City](#mexico-city) | **+3.0°C** | +0.1°C | tropical highland, 2,200m up |
 | 2 | [Madrid](#madrid) | **+2.8°C** | +0.3°C | inland Mediterranean, hot and dry |
-| 3 | [Anchorage](#anchorage) | **+2.7°C** | +0.6°C | sub-Arctic on the other side of the world |
+| 3 | [Anchorage](#anchorage) | **+2.8°C** | +0.6°C | sub-Arctic on the other side of the world |
 | 4 | [Tokyo](#tokyo) | **+2.7°C** | +0.2°C | humid subtropical, typhoon season |
 | 5 | [Paris](#paris) | **+2.5°C** | +0.6°C | temperate, a little more continental than London |
 | 6 | [Moscow](#moscow) | **+2.5°C** | -0.5°C | deep continental, the widest seasonal swing |
@@ -92,19 +92,19 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 8 | [Jakarta](#jakarta) | **+2.2°C** | +0.6°C | equatorial monsoon, southern side |
 | 9 | [Cairo](#cairo) | **+1.9°C** | +0.7°C | hot desert, almost no rain |
 | 10 | [Sydney](#sydney) | **+1.8°C** | +1.3°C | humid subtropical, seasons inverted |
-| 11 | [Singapore](#singapore) | **+1.7°C** | +0.2°C | equatorial, barely a season to speak of |
-| 12 | [New York](#new-york) | **+1.6°C** | -0.3°C | humid continental, east-coast maritime |
+| 11 | [Singapore](#singapore) | **+1.8°C** | +0.2°C | equatorial, barely a season to speak of |
+| 12 | [New York](#new-york) | **+1.7°C** | -0.3°C | humid continental, east-coast maritime |
 | 13 | [Lagos](#lagos) | **+1.6°C** | -0.6°C | tropical monsoon, near the equator |
-| 14 | [Nairobi](#nairobi) | **+1.5°C** | +1.2°C | tropical highland, just south of the equator |
-| 15 | [Beijing](#beijing) | **+1.5°C** | -0.0°C | continental monsoon, cold winters and hot summers |
+| 14 | [Beijing](#beijing) | **+1.5°C** | -0.0°C | continental monsoon, cold winters and hot summers |
+| 15 | [Nairobi](#nairobi) | **+1.5°C** | +1.2°C | tropical highland, just south of the equator |
 | 16 | [Sao Paulo](#sao-paulo) | **+1.3°C** | -0.1°C | subtropical highland, southern hemisphere |
 | 17 | [Reykjavik](#reykjavik) | **+1.0°C** | +0.8°C | sub-Arctic, and its 1940s were unusually warm |
 | 18 | [Los Angeles](#los-angeles) | **+0.6°C** | -0.5°C | Mediterranean, and drought-prone |
-| 19 | [Cape Town](#cape-town) | **+0.5°C** | +0.5°C | Mediterranean, seasons inverted |
+| 19 | [Cape Town](#cape-town) | **+0.6°C** | +0.5°C | Mediterranean, seasons inverted |
 | 20 | [Delhi](#delhi) | **-0.5°C** | +1.4°C | monsoon, and among the hottest big cities |
-| 21 | [Lima](#lima) | **-1.7°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
+| 21 | [Lima](#lima) | **-1.6°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
 
-Last updated with data to 19 September 2026. 0 monthly values changed in this run.
+Last updated with data to 20 September 2026. 21 monthly values changed in this run.
 
 ### Mexico City
 
@@ -158,13 +158,13 @@ Last updated with data to 19 September 2026. 0 monthly values changed in this ru
 
 <img src="plates/lagos.svg" alt="Lagos monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
-### Nairobi
-
-<img src="plates/nairobi.svg" alt="Nairobi monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
-
 ### Beijing
 
 <img src="plates/beijing.svg" alt="Beijing monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
+
+### Nairobi
+
+<img src="plates/nairobi.svg" alt="Nairobi monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
 ### Sao Paulo
 
