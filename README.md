@@ -95,8 +95,8 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 11 | [Singapore](#singapore) | **+1.8°C** | +0.2°C | equatorial, barely a season to speak of |
 | 12 | [Lagos](#lagos) | **+1.6°C** | -0.6°C | tropical monsoon, near the equator |
 | 13 | [New York](#new-york) | **+1.6°C** | -0.3°C | humid continental, east-coast maritime |
-| 14 | [Beijing](#beijing) | **+1.5°C** | -0.0°C | continental monsoon, cold winters and hot summers |
-| 15 | [Nairobi](#nairobi) | **+1.5°C** | +1.2°C | tropical highland, just south of the equator |
+| 14 | [Nairobi](#nairobi) | **+1.5°C** | +1.2°C | tropical highland, just south of the equator |
+| 15 | [Beijing](#beijing) | **+1.5°C** | -0.0°C | continental monsoon, cold winters and hot summers |
 | 16 | [Sao Paulo](#sao-paulo) | **+1.3°C** | -0.1°C | subtropical highland, southern hemisphere |
 | 17 | [Reykjavik](#reykjavik) | **+1.0°C** | +0.8°C | sub-Arctic, and its 1940s were unusually warm |
 | 18 | [Los Angeles](#los-angeles) | **+0.6°C** | -0.5°C | Mediterranean, and drought-prone |
@@ -104,7 +104,7 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 20 | [Delhi](#delhi) | **-0.5°C** | +1.4°C | monsoon, and among the hottest big cities |
 | 21 | [Lima](#lima) | **-1.6°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
 
-Last updated with data to 2 October 2026. 21 monthly values changed in this run.
+Last updated with data to 3 October 2026. 21 monthly values changed in this run.
 
 ### Mexico City
 
@@ -158,13 +158,13 @@ Last updated with data to 2 October 2026. 21 monthly values changed in this run.
 
 <img src="plates/new-york.svg" alt="New York monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
-### Beijing
-
-<img src="plates/beijing.svg" alt="Beijing monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
-
 ### Nairobi
 
 <img src="plates/nairobi.svg" alt="Nairobi monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
+
+### Beijing
+
+<img src="plates/beijing.svg" alt="Beijing monthly temperature anomalies from 1940 to 2026, one column per year and one row per month" width="900">
 
 ### Sao Paulo
 
