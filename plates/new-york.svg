@@ -1078,7 +1078,7 @@
 <rect class="newyork4" x="820" y="126" width="7" height="7" rx="2"/>
 <rect class="newyork4" x="820" y="135" width="7" height="7" rx="2"/>
 <rect class="newyork3" x="820" y="144" width="7" height="7" rx="2"/>
-<rect class="newyork-void" x="820" y="153" width="7" height="7" rx="2"/>
+<rect class="newyork4" x="820" y="153" width="7" height="7" rx="2"/>
 <rect class="newyork-void" x="820" y="162" width="7" height="7" rx="2"/>
 <rect class="newyork-void" x="820" y="171" width="7" height="7" rx="2"/>
 <text class="note" x="46" y="198">Monthly mean of the daily maximum, against this city's own 1961-1990 average</text>
