@@ -99,12 +99,12 @@ Ranked by the last ten years. Both figures are the same city measured against it
 | 15 | [Nairobi](#nairobi) | **+1.5°C** | +1.2°C | tropical highland, just south of the equator |
 | 16 | [Sao Paulo](#sao-paulo) | **+1.3°C** | -0.1°C | subtropical highland, southern hemisphere |
 | 17 | [Reykjavik](#reykjavik) | **+1.0°C** | +0.8°C | sub-Arctic, and its 1940s were unusually warm |
-| 18 | [Los Angeles](#los-angeles) | **+0.7°C** | -0.5°C | Mediterranean, and drought-prone |
+| 18 | [Los Angeles](#los-angeles) | **+0.6°C** | -0.5°C | Mediterranean, and drought-prone |
 | 19 | [Cape Town](#cape-town) | **+0.6°C** | +0.5°C | Mediterranean, seasons inverted |
 | 20 | [Delhi](#delhi) | **-0.5°C** | +1.4°C | monsoon, and among the hottest big cities |
 | 21 | [Lima](#lima) | **-1.6°C** | +0.0°C | coastal desert, cooled by the Humboldt current |
 
-Last updated with data to 20 October 2026. 21 monthly values changed in this run.
+Last updated with data to 21 October 2026. 21 monthly values changed in this run.
 
 ### Mexico City
 
